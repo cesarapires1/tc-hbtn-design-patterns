@@ -90,6 +90,6 @@ public abstract class Personagem {
                 ", resistencia = " + resistencia +
                 ", destreza = " + destreza +
                 ", dano atauque = " + String.format("%.2f", getDanoAtaque())  +
-                '}';
+                ' }';
     }
 }
