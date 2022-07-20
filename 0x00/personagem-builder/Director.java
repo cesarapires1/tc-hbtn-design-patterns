@@ -1,5 +1,5 @@
 public class Director {
-    public void  buildGuerreiro(Builder builder){
+    public void buildGuerreiro(Builder builder){
         builder.setNome("Guerreiro");
         builder.setInteligencia(1);
         builder.setForca(8);
