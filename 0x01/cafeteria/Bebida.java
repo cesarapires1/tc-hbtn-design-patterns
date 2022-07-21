@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class Bebida {
+    private double preco;
+    private List<String> ingredientes = new ArrayList<>();
+
+    public double obterPreco() {
+        return preco;
+    }
+
+    public List<String> obterIngredientes() {
+        return ingredientes;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Preco: %.2f - Ingredientes: %s", obterPreco(), obterIngredientes());
+    }
+
+
+
+
+}
