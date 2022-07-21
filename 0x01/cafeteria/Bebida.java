@@ -5,13 +5,9 @@ public abstract class Bebida {
     private double preco;
     private List<String> ingredientes = new ArrayList<>();
 
-    public double obterPreco() {
-        return preco;
-    }
+    abstract double obterPreco();
 
-    public List<String> obterIngredientes() {
-        return ingredientes;
-    }
+    abstract List<String> obterIngredientes();
 
     @Override
     public String toString() {
