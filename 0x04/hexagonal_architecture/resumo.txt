@@ -1,0 +1,25 @@
+A arquitetura hexagonal, ou arquitetura de portas e adaptadores, é um padrão arquitetural usado no design de software.
+O objetivo é criar componentes de aplicativos fracamente acoplados 
+que possam ser facilmente conectados ao ambiente de software por meio de portas e adaptadores
+
+Solução de Serviços Externos Independentes;
+Possibilita adiar algumas decisões técnicas;
+Criação e substituição de adaptadores;
+Para testar a camada de domínio, ou seja, a lógica da aplicação, não existe dependência com nada, podendo fazer testes isolados e sem nenhuma interferência de outra camada.
+
+Clean Architecture assemelha-se à proposta da Arquitetura Hexagonal, 
+mas segue a linha proposta por outro padrão, o Onion architecture. 
+É outra forma de representar a hierarquia entre as camadas, 
+mas mantendo as premissas de isolamento e inversão de dependências.
+
+A Arquitetura Limpa é semelhante à proposta da Arquitetura Hexagonal, Mas seguindo outro padrão, o percurso proposto pela Onion Architecture.
+Essa é outra maneira de representar 
+a hierarquia entre as camadas, 
+mas mantém a premissa de isolamento e inversão de dependência.
+
+A arquitetura hexagonal é útil em grandes aplicações com camadas, Mas a proposta de isolar diferentes camadas exige muito esforço da equipe,
+que Não seria divertido para projetos menores ou que não têm tempo para desenvolvimento, 
+Portanto, podemos supor que qualquer aplicativo pode ser projetado com uma arquitetura hexagonal, 
+Mas temos que ter cuidado para saber se nossa aplicação precisa, 
+se tal migração ou implementação é viável, A melhor solução nem sempre funciona para determinados cenários.
+
