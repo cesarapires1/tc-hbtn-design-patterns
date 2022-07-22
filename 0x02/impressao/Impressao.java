@@ -112,7 +112,7 @@ public class Impressao {
         String textoImpressao = "total de paginas: " + paginasTotais +
                 ", total coloridas: " + paginasColoridas +
                 ", total preto e branco: " + getPaginasPretoBranco() +
-                ", " + (getEhFrenteVerso() ? "frente e verso" : "frente") +
+                ", " + (getEhFrenteVerso() ? "frente e verso" : "frente apenas") +
                 ". total: R$ " + String.format("%.2f", calcularTotal());
 
         return textoImpressao;
