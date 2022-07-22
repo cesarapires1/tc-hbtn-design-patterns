@@ -1,26 +1,26 @@
 public class Impressao {
-    private Integer paginasTotais;
-    private Integer paginasColoridas;
+    private int paginasTotais;
+    private int paginasColoridas;
     private Boolean ehFrenteVerso;
-    private Double valorColoridasFrenteVerso;
-    private Double valorPretoBrancoFrenteVerso;
-    private Double valorColoridasFrenteApenas;
-    private Double valorPretoBrancoFrenteApenas;
+    private double valorColoridasFrenteVerso;
+    private double valorPretoBrancoFrenteVerso;
+    private double valorColoridasFrenteApenas;
+    private double valorPretoBrancoFrenteApenas;
     private TamanhoImpressao tamanhoImpressao;
 
-    public Integer getPaginasTotais() {
+    public int getPaginasTotais() {
         return paginasTotais;
     }
 
-    public void setPaginasTotais(Integer paginasTotais) {
+    public void setPaginasTotais(int paginasTotais) {
         this.paginasTotais = paginasTotais;
     }
 
-    public Integer getPaginasColoridas() {
+    public int getPaginasColoridas() {
         return paginasColoridas;
     }
 
-    public void setPaginasColoridas(Integer paginasColoridas) {
+    public void setPaginasColoridas(int paginasColoridas) {
         this.paginasColoridas = paginasColoridas;
     }
 
@@ -32,35 +32,35 @@ public class Impressao {
         this.ehFrenteVerso = ehFrenteVerso;
     }
 
-    public Double getValorColoridasFrenteVerso() {
+    public double getValorColoridasFrenteVerso() {
         return valorColoridasFrenteVerso;
     }
 
-    public void setValorColoridasFrenteVerso(Double valorColoridasFrenteVerso) {
+    public void setValorColoridasFrenteVerso(double valorColoridasFrenteVerso) {
         this.valorColoridasFrenteVerso = valorColoridasFrenteVerso;
     }
 
-    public Double getValorPretoBrancoFrenteVerso() {
+    public double getValorPretoBrancoFrenteVerso() {
         return valorPretoBrancoFrenteVerso;
     }
 
-    public void setValorPretoBrancoFrenteVerso(Double valorPretoBrancoFrenteVerso) {
+    public void setValorPretoBrancoFrenteVerso(double valorPretoBrancoFrenteVerso) {
         this.valorPretoBrancoFrenteVerso = valorPretoBrancoFrenteVerso;
     }
 
-    public Double getValorColoridasFrenteApenas() {
+    public double getValorColoridasFrenteApenas() {
         return valorColoridasFrenteApenas;
     }
 
-    public void setValorColoridasFrenteApenas(Double valorColoridasFrenteApenas) {
+    public void setValorColoridasFrenteApenas(double valorColoridasFrenteApenas) {
         this.valorColoridasFrenteApenas = valorColoridasFrenteApenas;
     }
 
-    public Double getValorPretoBrancoFrenteApenas() {
+    public double getValorPretoBrancoFrenteApenas() {
         return valorPretoBrancoFrenteApenas;
     }
 
-    public void setValorPretoBrancoFrenteApenas(Double valorPretoBrancoFrenteApenas) {
+    public void setValorPretoBrancoFrenteApenas(double valorPretoBrancoFrenteApenas) {
         this.valorPretoBrancoFrenteApenas = valorPretoBrancoFrenteApenas;
     }
 
@@ -72,7 +72,7 @@ public class Impressao {
         this.tamanhoImpressao = tamanhoImpressao;
     }
 
-    public Integer getPaginasPretoBranco(){
+    public int getPaginasPretoBranco(){
         return getPaginasTotais() - getPaginasColoridas();
     }
 
