@@ -33,11 +33,11 @@ public class Pedido {
 
     @Override
     public String toString() {
-        String textoPedido =  "\tFora da Caixa: \n";
+        String textoPedido =  "\tFora da Caixa:\n";
         for (ItemPedido item : itensForaCaixa ) {
             textoPedido += "\t\t- " + item.getTipo() + " " + item.getNome() + "\n";
         }
-        textoPedido += "\tDentro da Caixa: \n";
+        textoPedido += "\tDentro da Caixa:\n";
         for (ItemPedido item : itensDentroCaixa ) {
             textoPedido += "\t\t- " + item.getTipo() + " " + item.getNome()+ "\n";
         }
